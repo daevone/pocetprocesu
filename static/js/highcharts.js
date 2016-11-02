@@ -26,7 +26,7 @@ $(document).ready(function() {
     chart = new Highcharts.Chart({
         chart: {
             renderTo: 'data-container',
-            defaultSeriesType: 'spline',
+            defaultSeriesType: 'column',
             events: {
                 load: requestData
             }

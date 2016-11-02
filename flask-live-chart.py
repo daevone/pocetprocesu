@@ -11,7 +11,7 @@ app = Flask(__name__)
 def hello_world():
     return render_template('index.html', data='test')
 
-@app.route('/live-data')
+##@app.route('/live-data')
 #def live_data():
 
  #   data = [time() * 1000, psutil.cpu_times_percent(interval=None, percpu=False) [0]]
